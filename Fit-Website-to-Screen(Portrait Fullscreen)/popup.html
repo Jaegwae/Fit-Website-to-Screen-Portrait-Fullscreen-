@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <style>
+    body { font-family: sans-serif; margin: 15px; width: 320px;}
+    #site { font-weight: bold; }
+    #blockedList { margin: 16px 0 8px 0; }
+    #msg { color: #218621; min-height: 1em;}
+    button { margin-top: 8px; }
+    li { margin-bottom: 2px; }
+  </style>
+</head>
+<body>
+  <div>
+    <b>현재 사이트:</b>
+    <span id="site"></span><br>
+    <button id="toggleBlock">이 사이트에서는 확장 프로그램 사용 안함</button>
+    <div id="msg"></div>
+    <div id="blockedList"></div>
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html>
